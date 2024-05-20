@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [parentCount, setParentCount] = useState(0);
+  let variable = "Hello this is the variable";
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div style={{ color: "blue", backgroundColor: "#22bb22" }}>
+      <button onClick={() => setParentCount(parentCount + 1)}>
+        Click Me {parentCount}
+      </button>
+      <br />
+      <ComponentPrinting i={1} varibale={variable} />
+      <ComponentPrinting
+        i={3}
+        varibale={"This this is the variable different number:  "}
+      />
+    </div>
+  );
 }
 
-export default App
+function ComponentPrinting(props) {
+  const [count, setCount] = useState(0);
+  return (
+    <div onClick={() => setCount(count + 1)}>
+      <a>Variable number {props.i}</a>
+      <p>
+        {props.varibale} {props.i}
+      </p>
+      <p>Count for this varibale : {count}</p>
+    </div>
+  );
+}
+
+export default App;
