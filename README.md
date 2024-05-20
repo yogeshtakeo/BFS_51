@@ -1,8 +1,17 @@
-# React + Vite
+# Project Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Intiation Yogesh:
+Create a Vite Application:
+- Create a project on github using vite application https://github.com/yogeshtakeo/BFS_51/tree/portfolio-project
 
-Currently, two official plugins are available:
+Research on What are you going to do on the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- I am going to create a components based on the project needs; I will have a Hero component that will display a the banner for my introduction
+- I am going to implement CSS as my main styling attribute.
+- I am going to finish this project by wednesday this week
+
+Materials
+Github , React , CSS, JSX
+
+Structure of the website
+![Image](https://github.com/yogeshtakeo/BFS_51/assets/128008784/a3388b36-2038-4238-9e57-edc929106e90)
