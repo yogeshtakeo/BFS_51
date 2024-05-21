@@ -1,0 +1,9 @@
+.navigation_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation_action_center button {
+  margin: 0 0.5rem;
+}

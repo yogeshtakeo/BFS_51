@@ -1,5 +1,8 @@
-function Button() {
-  return <div>Button</div>;
+/* eslint-disable react/prop-types */
+import "./button.css";
+
+function Button(props) {
+  return <button className="button">{props.children}</button>;
 }
 
 export default Button;
