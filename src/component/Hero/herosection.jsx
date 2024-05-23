@@ -6,7 +6,7 @@ function HeroComponent() {
   return (
     <div className="hero_section">
       <div className="content_hero">
-        <h1>Hello World! Its Fronted Dev</h1>
+        <h1>Hello World! Its Frontend Dev</h1>
         <p>
           If you are looking for a quality and creative developer. I have 6
           years of experience in the planet earth as a developer. Feel Free to

@@ -1,6 +1,6 @@
 import "./App.css";
 import NavigationComponent from "./component/navigation/navigation.component.jsx";
-import HeroComponent from "./component/hero/herosection.component.jsx";
+import HeroComponent from "./component/hero/herosection.jsx";
 import ProjectComponent from "./component/project/project.component.jsx";
 import FooterComponent from "./component/footer/footer.component.jsx";
 
