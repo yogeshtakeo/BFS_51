@@ -1,5 +1,6 @@
 import Button from "../../ui/button/button.ui.jsx";
-import "./heroStyle.css";
+import "./hero.css";
+import YogeshImage from "../../assets/yogeshbhattarai.jpg";
 
 function HeroComponent() {
   return (
@@ -17,7 +18,7 @@ function HeroComponent() {
         </div>
       </div>
       <div className="image_container">
-        <img src={""} alt="Yogesh" />
+        <img src={YogeshImage} alt="Yogesh" />
       </div>
     </div>
   );
