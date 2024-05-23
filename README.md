@@ -1,21 +1,21 @@
-# Project Portfolio
+# Portfolio
 
-## Intiation Yogesh:
+Netlify : https://yogesh-bhattarai-portfolio.netlify.app
 
-### Create a Vite Application:
+<p> Decription </p>
 
-- Create a project on github using vite application https://github.com/yogeshtakeo/BFS_51/tree/portfolio-project
+## Tech Stacks
 
-### Research on What are you going to do on the project
+1. HTML
+2. CSS
+3. JSX
+4. React
+5. Flexbox
 
-- I am going to create a components based on the project needs; I will have a Hero component that will display a the banner for my introduction
-- I am going to implement CSS as my main styling attribute.
-- I am going to finish this project by wednesday this week
+## Screenshots
 
-### Materials
+![Image](https://github.com/yogeshtakeo/BFS_51/assets/128008784/7cc77422-26c4-492f-bb99-8d1282293b1a)
 
-Github , React , CSS, JSX
+![Image](https://github.com/yogeshtakeo/BFS_51/assets/128008784/fb99c082-8b2d-47ee-998f-996176278151)
 
-### Structure of the website
-
-![Image](https://github.com/yogeshtakeo/BFS_51/assets/128008784/a3388b36-2038-4238-9e57-edc929106e90)
+![Image](https://github.com/yogeshtakeo/BFS_51/assets/128008784/28609f38-3dad-48d1-800b-784b0960a5fd)
