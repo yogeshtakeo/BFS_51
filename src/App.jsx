@@ -11,7 +11,7 @@ function App() {
       <NavigationComponent />
       <HeroComponent />
       <ProjectComponent />
-      <ExperienceComponent />
+      {/* <ExperienceComponent /> */}
       <FooterComponent />
     </div>
   );

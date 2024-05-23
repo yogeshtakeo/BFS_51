@@ -1,5 +1,40 @@
+import Button from "../../ui/button/button.ui";
+import Input from "../../ui/input/input.ui";
+import "./footer.css";
+
 function FooterComponent() {
-  return <div>FooterComponent</div>;
+  return (
+    <div className="footer_container">
+      <div className="container_contet">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="feather feather-coffee"
+        >
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+          <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+          <line x1="6" y1="1" x2="6" y2="4"></line>
+          <line x1="10" y1="1" x2="10" y2="4"></line>
+          <line x1="14" y1="1" x2="14" y2="4"></line>
+        </svg>
+        <h3>Grab a Coffee with me </h3>
+      </div>
+      <div className="input_container">
+        <form className="form_contact">
+          <Input type="text" placeholder="Name" />
+          <Input type="email" placeholder="Email  Adress" />
+          <Button> Grab a coffee </Button>
+        </form>
+      </div>
+    </div>
+  );
 }
 
 export default FooterComponent;

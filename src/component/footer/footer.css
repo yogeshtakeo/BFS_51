@@ -1,0 +1,21 @@
+.footer_container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 10rem;
+  align-items: center;
+  gap: 2rem;
+}
+.footer_container .container_contet {
+  flex: 1;
+}
+.input_container {
+  border-left: 4px solid brown;
+  flex: 4;
+}
+.footer_container .form_contact {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}

@@ -20,13 +20,17 @@
   flex: 4;
 }
 
-.image_container {
+.hero_section .image_container {
   border-radius: 1rem;
   overflow: hidden;
   flex: 5;
   height: 80vh;
 }
 
-.image_container img {
+.hero_section .image_container img {
   filter: grayscale(80%);
+}
+
+.hero_section .action_container {
+  padding: 1rem 0;
 }
