@@ -1,0 +1,32 @@
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(250, 234, 214, 0.401);
+  padding: 1rem;
+}
+
+.hero_section .content_hero p {
+  max-width: 30rem;
+}
+
+.hero_section div.action_container {
+  display: flex;
+  gap: 1rem;
+}
+
+.content_hero {
+  flex: 4;
+}
+
+.image_container {
+  border-radius: 1rem;
+  overflow: hidden;
+  flex: 5;
+  height: 80vh;
+}
+
+.image_container img {
+  filter: grayscale(80%);
+}

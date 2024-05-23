@@ -7,7 +7,7 @@ import FooterComponent from "./component/footer/footer.component";
 
 function App() {
   return (
-    <div>
+    <div className="app_container">
       <NavigationComponent />
       <HeroComponent />
       <ProjectComponent />
