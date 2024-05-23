@@ -1,5 +1,5 @@
-import Button from "../../ui/button/button.ui";
-import Input from "../../ui/input/input.ui";
+import Button from "../../ui/button/button.ui.jsx";
+import Input from "../../ui/input/input.ui.jsx";
 import "./footer.css";
 
 function FooterComponent() {

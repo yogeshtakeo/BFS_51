@@ -1,6 +1,6 @@
-import Button from "../../ui/button/button.ui";
+import Button from "../../ui/button/button.ui.jsx";
 import "./hero.css";
-import YogeshImage from "./yogeshbhattarai.jpg";
+import YogeshImage from "../../assets/yogeshbhattarai.jpg";
 
 function HeroComponent() {
   return (

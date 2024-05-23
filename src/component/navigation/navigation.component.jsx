@@ -1,5 +1,5 @@
 import "./navigation.css";
-import Button from "../../ui/button/button.ui";
+import Button from "../../ui/button/button.ui.jsx";
 
 function NavigationComponent() {
   return (
