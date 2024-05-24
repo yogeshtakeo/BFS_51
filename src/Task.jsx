@@ -1,16 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function Task() {
+  const [tasks, setTasks] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/todos"
+      );
+      const data = await response.json();
+      setTasks([...data]);
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <div>
       <div>
         <h1>Task List</h1>
         <ul>
-          <li>List 1 </li>
-          <li>List 2 </li>
-          <li>List 3 </li>
-          <li>List 4 </li>
-          <li>List 4 </li>
+          {tasks.map((task) => (
+            <li key={task.id}>{task.title}</li>
+          ))}
         </ul>
       </div>
     </div>
