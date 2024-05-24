@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import "./task.css";
 
 function Task() {
   return (
     <div>
-      <div>
+      <>
         <h1>Task List</h1>
         <ul>
           <li>List 1 </li>
@@ -12,7 +13,7 @@ function Task() {
           <li>List 4 </li>
           <li>List 4 </li>
         </ul>
-      </div>
+      </>
     </div>
   );
 }
